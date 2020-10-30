@@ -11,7 +11,6 @@ require (
 	github.com/antonholmquist/jason v1.0.0 // indirect
 	github.com/aws/aws-sdk-go v1.33.1 // indirect
 	github.com/aymerick/raymond v2.0.2+incompatible // indirect
-	github.com/dgrijalva/jwt-go v3.2.0+incompatible // indirect
 	github.com/eknkc/amber v0.0.0-20171010120322-cdade1c07385 // indirect
 	github.com/fatih/structs v1.1.0 // indirect
 	github.com/flosch/pongo2 v0.0.0-20200529170236-5abacdfa4915 // indirect
@@ -21,14 +20,9 @@ require (
 	github.com/google/go-querystring v1.0.0 // indirect
 	github.com/gorilla/schema v1.1.0 // indirect
 	github.com/imkira/go-interpol v1.1.0 // indirect
-	github.com/iris-contrib/blackfriday v2.0.0+incompatible // indirect
-	github.com/iris-contrib/formBinder v5.0.0+incompatible // indirect
-	github.com/iris-contrib/go.uuid v2.0.0+incompatible // indirect
-	github.com/iris-contrib/httpexpect v0.0.0-20180314041918-ebe99fcebbce // indirect
+	github.com/jinzhu/gorm v1.9.16
 	github.com/json-iterator/go v1.1.10 // indirect
 	github.com/k0kubun/colorstring v0.0.0-20150214042306-9440f1994b88 // indirect
-	github.com/kataras/golog v0.0.18 // indirect
-	github.com/kataras/iris v11.1.1+incompatible // indirect
 	github.com/klauspost/compress v1.10.10 // indirect
 	github.com/lib/pq v1.7.0 // indirect
 	github.com/mattn/go-colorable v0.1.7 // indirect
@@ -38,7 +32,7 @@ require (
 	github.com/ryanuber/columnize v2.1.0+incompatible // indirect
 	github.com/sergi/go-diff v1.1.0 // indirect
 	github.com/shurcooL/sanitized_anchor_name v1.0.0 // indirect
-	github.com/smartystreets/goconvey v1.6.4 // indirect
+	github.com/spf13/viper v1.7.1
 	github.com/xeipuuv/gojsonschema v1.2.0 // indirect
 	github.com/yalp/jsonpath v0.0.0-20180802001716-5cc68e5049a0 // indirect
 	github.com/yudai/gojsondiff v1.0.0 // indirect
