@@ -2,21 +2,15 @@ package main
 
 import (
 	"fmt"
+	"github.com/denny713/ewallet-go/config"
 	"github.com/denny713/ewallet-go/route"
-	"github.com/denny713/ewallet-go/util"
-	"github.com/spf13/viper"
 	"strconv"
 )
 
 func main() {
-	util.DatabaseConnect()
-	viper.SetConfigName("config")
-	viper.AddConfigPath(".")
-	viper.AutomaticEnv()
-	viper.SetConfigType("yml")
-	if err := viper.ReadInConfig(); err != nil {
-		fmt.Printf("Error Reading Configuration File, %s", err)
-	}
+	config.DatabaseConnect()
+	server := config.Data.Server
 	r := route.RouteSetup()
-	r.Run(":" + strconv.Itoa(viper.GetInt("server.port")))
+	fmt.Println("Starting Web Server In Port : " + strconv.Itoa(int(server.Port)))
+	_ = r.Run(":" + strconv.Itoa(int(server.Port)))
 }

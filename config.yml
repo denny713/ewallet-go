@@ -1,7 +1,7 @@
 datasource:
   host: localhost
   port: 5432
-  name: postgres
+  name: ewallet
   user: postgres
   pass: p@ssw0rd
 server:

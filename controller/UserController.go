@@ -10,8 +10,6 @@ import (
 var err error
 var users []model.Users
 
-//var user model.Users
-
 func GetAllUsers(c *gin.Context) {
 	err = service.GetAllUsers(&users)
 	if err != nil {
